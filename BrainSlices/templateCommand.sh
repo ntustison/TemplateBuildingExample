@@ -11,12 +11,12 @@ ${ANTsPath}/antsMultivariateTemplateConstruction2.sh \
   -c 0 \
   -k 1 \
   -w 1 \
-  -f 16x12x8x4x2x1 \
-  -s 4x4x4x2x1x0 \
-  -q 100x100x100x70x50x10 \
-  -n 0 \
-  -r 0 \
+  -f 8x4x2x1 \
+  -s 3x2x1x0 \
+  -q 100x70x50x10 \
+  -n 1 \
+  -r 1 \
   -m CC \
-  -t BSplineSyN[0.1,75,0] \
-  ${inputPath}/face*.nii.gz
+  -t BSplineSyN[0.1,26,0] \
+  ${inputPath}/OASIS*.nii.gz
 
