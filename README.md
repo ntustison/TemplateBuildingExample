@@ -6,7 +6,7 @@ Two examples of ANTs template building using `antsMultivariateTemplateConstructi
 * Faces
 * BrainSlices
 
-each of which is contained in its own separate subdirectories.
+each of which is contained in its own separate subdirectory.
 
 Faces example
 -----------------------
