@@ -1,4 +1,4 @@
-TemplateBuildingExample
+ANTs Templates
 =======================
 
 Two examples of ANTs multivariate template building using `antsMultivariateTemplateConstruction2.sh`
