@@ -1,7 +1,7 @@
 ANTs templates
 =======================
 
-Two examples of ANTstemplate building using `antsMultivariateTemplateConstruction2.sh`
+Two examples of ANTs template building using `antsMultivariateTemplateConstruction2.sh`
 
 * Faces
 * BrainSlices
