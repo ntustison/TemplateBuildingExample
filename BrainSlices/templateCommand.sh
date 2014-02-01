@@ -16,7 +16,8 @@ ${ANTsPath}/antsMultivariateTemplateConstruction2.sh \
   -q 100x70x50x10 \
   -n 1 \
   -r 1 \
-  -m CC \
+  -l 1 \
+  -m CC[4] \
   -t BSplineSyN[0.1,26,0] \
   ${inputPath}/OASIS*.nii.gz
 
