@@ -18,6 +18,6 @@ ${ANTsPath}/antsMultivariateTemplateConstruction2.sh \
   -r 1 \
   -l 1 \
   -m CC[2] \
-  -t TimeVaryingVelocityField \
+  -t TimeVaryingVelocityField[0.25,3,3,0,0,0] \
   ${inputPath}/OASIS*.nii.gz
 

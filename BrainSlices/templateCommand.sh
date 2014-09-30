@@ -7,10 +7,10 @@ ${ANTsPath}/antsMultivariateTemplateConstruction2.sh \
   -o ${inputPath}T_ \
   -i 4 \
   -g 0.25 \
-  -j 2 \
-  -c 0 \
-  -k 1 \
-  -w 1 \
+  -j 4 \
+  -c 2 \
+  -k 2 \
+  -w 1x1 \
   -f 8x4x2x1 \
   -s 3x2x1x0 \
   -q 100x70x50x10 \
