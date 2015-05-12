@@ -1,8 +1,6 @@
-ANTsPath=/Users/ntustison/Pkg/ANTs/bin/bin/
 inputPath=${PWD}/
 
-
-${ANTsPath}/buildtemplateparallel.sh \
+${ANTSPATH}/buildtemplateparallel.sh \
   -d 2 \
   -o T_ \
   -i 4 \

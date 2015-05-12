@@ -1,8 +1,6 @@
-ANTsPath=/Users/ntustison/Pkg/ANTs/bin/bin/
 inputPath=${PWD}/
 
-
-${ANTsPath}/antsMultivariateTemplateConstruction2.sh \
+${ANTSPATH}/antsMultivariateTemplateConstruction2.sh \
   -d 2 \
   -o ${inputPath}T_ \
   -i 4 \
