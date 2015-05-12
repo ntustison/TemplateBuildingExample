@@ -1,8 +1,9 @@
 inputPath=${PWD}/
+outputPath=${PWD}/TemplateMultivariateBSplineSyN/
 
 ${ANTSPATH}/antsMultivariateTemplateConstruction2.sh \
   -d 2 \
-  -o ${inputPath}T_ \
+  -o ${outputPath}T_ \
   -i 4 \
   -g 0.25 \
   -j 2 \
