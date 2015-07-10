@@ -8,7 +8,7 @@ ${ANTSPATH}/antsMultivariateTemplateConstruction2.sh \
   -g 0.25 \
   -j 2 \
   -c 0 \
-  -k 1 \
+  -k 2 \
   -w 1 \
   -f 8x4x2x1 \
   -s 3x2x1x0 \
