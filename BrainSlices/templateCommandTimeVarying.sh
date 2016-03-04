@@ -17,5 +17,5 @@ ${ANTSPATH}/antsMultivariateTemplateConstruction2.sh \
   -r 1 \
   -l 1 \
   -m CC[4] \
-  -t BSplineSyN[0.1,26,0] \
+  -t TimeVaryingVelocityField[0.25,3,3,0,0,0] \
   ${inputPath}/OASIS*1.nii.gz
