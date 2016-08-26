@@ -2,14 +2,14 @@ inputPath=${PWD}/
 
 ${ANTSPATH}/buildtemplateparallel.sh \
   -d 2 \
-  -o T_ \
+  -o BTP/T_ \
   -i 4 \
-  -g 0.25 \
-  -j 4 \
-  -c 2 \
+  -g 0.2 \
+  -j 1 \
+  -c 0 \
   -m 100x70x50x10 \
   -n 1 \
   -r 1 \
   -s CC \
-  -t GR \
+  -t RI \
   OASIS*1.nii.gz

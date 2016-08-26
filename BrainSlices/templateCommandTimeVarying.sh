@@ -5,7 +5,7 @@ ${ANTSPATH}/antsMultivariateTemplateConstruction2.sh \
   -d 2 \
   -o ${outputPath}T_ \
   -i 4 \
-  -g 0.25 \
+  -g 0.2 \
   -j 4 \
   -c 2 \
   -k 1 \
