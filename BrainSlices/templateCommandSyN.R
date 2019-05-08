@@ -19,3 +19,4 @@ btp <- buildTemplate( initialTemplate = averageImage,
   synMetric = 'CC',
   regIterations = c( 100, 70, 50, 10 ) )
 
+plot( btp )
