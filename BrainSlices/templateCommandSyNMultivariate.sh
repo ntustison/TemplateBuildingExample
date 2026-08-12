@@ -1,8 +1,13 @@
 inputPath=${PWD}/
-outputPath=${PWD}/TemplateSyN/
+outputPath=${PWD}/TemplateSyN2MV/
 
-# No ANTSPATH here, ANTs must be in the PATH (post 2.5.0)
-# Test input from a csv file
+# Check we have ANTs on the PATH
+if ! command -v antsMultivariateTemplateConstruction.sh &> /dev/null
+then
+  echo "antsMultivariateTemplateConstruction.sh not found on PATH"
+  exit 1
+fi
+
 # To test windows newlines are parsed correctly, replace
 # input.csv with input_cr.csv
 antsMultivariateTemplateConstruction.sh \
