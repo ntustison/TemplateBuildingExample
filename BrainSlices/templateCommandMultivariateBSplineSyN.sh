@@ -1,7 +1,14 @@
 inputPath=${PWD}/
 outputPath=${PWD}/TemplateMultivariateBSplineSyN/
 
-${ANTSPATH}/antsMultivariateTemplateConstruction2.sh \
+# Check we have ANTs on the PATH
+if ! command -v antsMultivariateTemplateConstruction2.sh &> /dev/null
+then
+  echo "antsMultivariateTemplateConstruction2.sh not found on PATH"
+  exit 1
+fi
+
+antsMultivariateTemplateConstruction2.sh \
   -d 2 \
   -o ${outputPath}T_ \
   -i 4 \
